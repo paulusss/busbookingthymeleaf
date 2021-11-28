@@ -1,0 +1,41 @@
+<html>
+
+<head>
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+	<title>Test Anu</title>
+	<link rel="stylesheet" href="assets/css/index.css">
+</head>
+
+<body>
+
+	<div class="alert alert-primary" role="alert" style="color:red">
+	  A simple primary alert�check it out!
+	</div>
+	<div class="mantap2">
+		<div class="mantap3">
+			<h1 class="mantap1 mantap3">It works!</h1>
+			<h1 class="mantap2">It works!</h1>
+			<h1 class="mantap1 mantap3">It works!</h1>
+		</div>
+	</div>
+<table class = "table">
+
+	<tr class = "thead">
+		<th scope="col">nama</td>
+		<th scope="col">batch</td>
+		<th scope="col">alamat</td>
+	</tr>
+
+	<tr th:each="isi : ${data}">
+		<td th:text="${isi.nama}">
+		<td th:text="${isi.batch}">
+		<td th:text="${isi.alamat}">
+	</tr>
+</table>
+</body>
+</html>

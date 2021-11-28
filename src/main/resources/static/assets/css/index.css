@@ -1,0 +1,18 @@
+.mantap1{
+	color:white
+}
+.mantap2{
+	color:green
+}
+.mantap3{
+	color:blue;
+	background-color:red
+}
+
+#idtest{
+	width:300;
+}
+
+#idborder{
+	border-style: dotted
+}
